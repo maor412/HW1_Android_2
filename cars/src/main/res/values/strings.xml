@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Cars App</string>
+    <string name="question">What is the name of the car</string>
+</resources>

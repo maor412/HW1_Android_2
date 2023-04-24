@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Colors App</string>
+    <string name="question">What is the name of the color</string>
+</resources>

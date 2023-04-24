@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/main_TV_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question"
+        android:textColor="#00005F"
+        android:textSize="24sp"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp"
+        />
+
+    <ImageView
+        android:src="@drawable/background"
+        android:id="@+id/main_IV_questionImage"
+        android:layout_below="@+id/main_TV_question"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:scaleType="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/main_LL_buttonsWrapper1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_IV_questionImage"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_marginHorizontal="5dp"
+            android:id="@+id/main_BTN_option1"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_marginHorizontal="5dp"
+            android:id="@+id/main_BTN_option2"
+            android:layout_width="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_LL_buttonsWrapper1"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_marginHorizontal="5dp"
+            android:id="@+id/main_BTN_option3"
+            android:layout_width="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_marginHorizontal="5dp"
+            android:id="@+id/main_BTN_option4"
+            android:layout_width="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+[
+    {
+      
+      "image": "https://about.canva.com/wp-content/uploads/sites/8/2019/03/red.png",
+      "options": [
+        "Red",
+        "Blue",
+        "Green",
+        "Yellow"
+      ],
+      "answer": "Red"
+    },
+    {
+      
+      "image": "https://about.canva.com/wp-content/uploads/sites/8/2019/03/green.png",
+      "options": [
+        "Green",
+        "Red",
+        "Blue",
+        "Yellow"
+      ],
+      "answer": "Green"
+    },
+    {
+      
+      "image": "https://about.canva.com/wp-content/uploads/sites/8/2019/03/blue.png",
+      "options": [
+        "Blue",
+        "Red",
+        "Green",
+        "Yellow"
+      ],
+      "answer": "Blue"
+    },
+    {
+      
+      "image": "https://about.canva.com/wp-content/uploads/sites/8/2019/03/pink.png",
+      "options": [
+        "Pink",
+        "Brown",
+        "Gray",
+        "Beige"
+      ],
+      "answer": "Pink"
+    },
+    {
+      
+      "image": "https://about.canva.com/wp-content/uploads/sites/8/2019/03/yellow.png",
+      "options": [
+        "Yellow",
+        "Green",
+        "Blue",
+        "Orange"
+      ],
+      "answer": "Yellow"
+    },
+    {
+      
+      "image": "https://about.canva.com/wp-content/uploads/sites/8/2019/03/purple.png",
+      "options": [
+        "Purple",
+        "Red",
+        "Blue",
+        "Green"
+      ],
+      "answer": "Purple"
+    }
+  ]
